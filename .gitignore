@@ -1,0 +1,10 @@
+# IDE working files
+*.iws
+*.ipr
+*.iml
+.idea/
+nbproject/
+nbproject/private/
+.settings
+.project
+.classpath
