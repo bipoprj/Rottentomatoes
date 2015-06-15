@@ -8,6 +8,7 @@ http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apike
 #fix code signing issue
 https://github.com/CocoaPods/CocoaPods/issues/3156
 adding into Podfile
+```
 post_install do |installer_representation|
     installer_representation.project.targets.each do |target|
         if target.to_s.include? 'Pods'
@@ -19,10 +20,9 @@ post_install do |installer_representation|
         end
     end
 end
-
+```
 
 #pod install
-#.....
 gem install cocoapods --user-install
 gem which cocoapods
 #yosemite
