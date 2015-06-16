@@ -23,8 +23,12 @@ end
 ```
 
 #pod install
+```
 gem install cocoapods --user-install
 gem which cocoapods
+```
 #yosemite
+```
 sudo gem install cocoapods -V
 sudo gem update --system 
+```
